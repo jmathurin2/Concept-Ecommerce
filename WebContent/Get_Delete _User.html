@@ -1,0 +1,50 @@
+<html> 
+ <head>
+
+
+<link href="web.css" rel="stylesheet" type="text/css" />
+<title>Get User</title>
+
+<style>  
+     <%@ include file="web.css"%>  
+</style>
+
+
+
+<center>
+ 
+    <!-- This is the  page banner. -->
+<img src="J3Hbanner.png" align="middle" align="top" width="1200" height="220" />
+
+
+
+<!-- This is the  page navigation2. -->
+<center>
+<div id="nav">
+<a href="Index.jsp">Home</a> |<a href="Categories.jsp">Product Categories</a> | <a href="User.jsp">Edit Profile</a> | <a href="Logout.jsp">Logout</a> | <a href="Admin_Login.jsp">Admin Login</a> 
+</div></center>
+
+</head>
+<body>
+
+
+<div class="form1" style="color:red;" align="center" >
+    <br><br><br><br>
+<div class="getdeleteuserpage"><p style="color:blue; align=center"><u>Get a User!!</u></p></div><br />
+    
+    
+    <!-- <p align="center"><form name="form3" action="User_Search_info.jsp" method="get" onSubmit="return validateForm()"></p> -->
+ <p align="center"><form name="form1" action="Deleted _User_Info.jsp" method="post" onSubmit="return validateForm()"></p>
+ 
+ <!--  //Enter Product ID:<input type="hidden" name="prod_id" value=""><br /><br /> -->
+  Enter User ID:<input type="text" name="user_id" value=""><br /><br />
+  <input type="Submit" value="Search" name="submit">
+  
+ </form></div>
+     
+    </div>
+        <!-- This is the end of the login form. -->
+<div id="footer"><center>
+    		Copyright © J3H Ecommerce 2014, All Rights Reserved.</center>
+	</div>
+</body>

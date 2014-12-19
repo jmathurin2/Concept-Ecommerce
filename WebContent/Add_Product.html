@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+
+<meta charset="ISO-8859-1">
+<title>Add Product</title>
+<link href="web.css" rel="stylesheet" type="text/css" />
+
+<script>
+  function validateForm()
+  { 
+
+    if(document.form1.prod_name.value=="")
+    { 
+      alert("Product Name should not be blank.."); 
+      document.form1.prod_name.focus(); 
+      return false; 
+    }
+     else if(document.form1.prod_type.value=="")
+    {
+      alert("Product Type should not be blank"); 
+      document.form1.prod_type.focus(); return false; 
+    }
+     
+     else if(document.form1.description.value=="")
+     {
+       alert("Product Description should not be blank"); 
+       document.form1.description.focus(); return false; 
+     }
+     else if(document.form1.price.value=="")
+     {
+       alert("Product Price should not be blank"); 
+       document.form1.price.focus(); return false; 
+     }
+     else if(document.form1.release_date.value=="")
+     {
+       alert("Product Release Date should not be blank"); 
+       document.form1.release_date.focus(); return false; 
+     }
+     else if(document.form1.image.value=="")
+     {
+       alert("Product Image Name should not be blank"); 
+       document.form1.image.focus(); return false; 
+     }
+    
+     else if(document.form1.cat_id.value=="")
+     {
+       alert("Product Category ID should not be blank"); 
+       document.form1.cat_id.focus(); return false; 
+     }
+    
+
+   } 
+
+     </script> 
+
+<style>  
+     <%@ include file="web.css"%>  
+</style>
+
+
+
+<center>
+ 
+    <!-- This is the  page banner. -->
+<img src="J3Hbanner.png" align="middle" align="top" width="1200" height="220" />
+
+
+
+<!-- This is the  page navigation2. -->
+<center>
+<div id="nav">
+<a href="Index.jsp">Home</a> |<a href="Categories.jsp">Product Categories</a> | <a href="User.jsp">Edit Profile</a> | <a href="Logout.jsp">Logout</a> | <a href="Admin_Login.jsp">Admin Login</a> 
+</div></center>
+
+</head>
+<body>
+
+   
+    
+   
+  <div class="form1" style="color:red;" align="right" >
+    <br><br><br><br>
+    
+    <div class="enterprodpageinfotoadd">
+    <p style="color:blue; align=center"><u>Enter the Product Info to Add!!</u></p><br />
+    <p align="center"><form name="form1" action="AddProduct.jsp"  method="post" onSubmit="return validateForm()"></p>
+    </div>
+
+<div class="addprodpage">
+    Product Name: <input type="text" name="prod_name" value="" /><br /><br>
+    Product Type: <input type="text" name="prod_type" value="" /><br /><br>
+    Product Description: <input type="text" name="description" value="" /><br /><br>
+    Product Price: <input type="text" name="price" value="" /><br /><br>
+    Release Date: <input type="text" name="release_date" value="" /><br /><br>
+    Image Name: <input type="text" name="image" value="" /><br /><br>
+    Category ID: <input type="text" name="cat_id" value="" /><br /><br />
+
+    <input type="Submit" value="Save" name="submit"><br><br>
+</div>   
+     
+    </form></div>
+     
+    </div>
+        <!-- This is the end of the login form. -->
+<div id="footer"><center>
+    		Copyright © J3H Ecommerce 2014, All Rights Reserved.</center>
+	</div>
+</body>
+</html>

@@ -1,0 +1,791 @@
+.adminfooter {
+	
+}
+
+.footerregisterpage {
+	margin-top:-80px;
+}
+
+.updateproductpage {
+	
+	font-size:20px;
+}
+
+
+.searchproductpage {
+	
+	font-size:20px;
+}
+
+.searchuserpage {
+	
+	font-size:20px;
+	
+}
+
+
+
+
+.searchproductpage {
+	
+	font-size:20px;
+}
+
+
+.getdeleteuserpage {
+	font-size:20px;
+}
+
+
+.formdeleteproductpage {
+	
+	font-size:20px;
+}
+
+
+.deleteuserformpage {
+	
+	margin-right: 580px;
+	font-size: 25px;
+}
+
+.adminloginform {
+	
+	margin-right: 540px;
+}
+
+
+
+.welcomeadmin {
+	
+	margin-left:490px;
+	margin-top: 40px;
+	font-size: 30px;
+}
+
+
+
+.admincontrolpanel {
+	
+	margin-left:420px;
+	font-size: 20px;
+	
+}
+
+
+.admincontrolpanelpage {
+	
+	margin-left: 500px;
+	font-size:20px;
+	margin-top:-50px;
+}
+
+
+.enterprodpageinfotoadd {
+	
+    margin-right: 490px;
+    font-size: 25px;	
+}
+
+.addprodpage {
+	
+	margin-right: 550px;
+	margin-top: 5px;
+	
+}
+
+.userhistory {
+	margin-top:20px;
+	margin-left:20px;
+    background-color: lightgrey;
+    width: 1130px;
+    padding: 0px;
+    border: 13px solid navy;
+	font-size:20px;
+	font-color:black;
+}
+
+
+
+
+.userinfopage {
+	
+	margin-left: -10px;
+	font-size:15px;
+	font-weight: bold;
+	
+}
+
+/*this code is in confirmation page and this code brings you back to categories page after confirmation has been completed*/
+
+.btcat {
+	
+	font-size: 25px;
+	margin-left:900px;
+	text-shadow: 2px 2px 2px black;
+	
+}
+
+
+.orderformcart {
+	
+	
+	margin-top:60px;
+	margin-left:220px;
+    background-color: lightgrey;
+    width: 800px;
+    padding: 0px;
+    border: 15px solid navy;
+}
+
+
+.electronicscart {
+	
+	margin-top:20px;
+	margin-left:20px;
+    background-color: lightgrey;
+    width: 800px;
+    padding: 0px;
+    border: 15px solid navy;
+	
+	
+}
+
+.electronicsfooter {
+	margin-top: 180px;
+	
+}
+
+
+
+.gamescart {
+	
+	margin-top:20px;
+	margin-left:20px;
+    background-color: lightgrey;
+    width: 800px;
+    padding: 0px;
+    border: 15px solid navy;
+	
+	
+}
+
+.gamesfooter {
+	margin-top: 180px;
+	
+}
+
+
+
+.moviecart {
+	
+	margin-top:20px;
+	margin-left:20px;
+    background-color: lightgrey;
+    width: 800px;
+    padding: 0px;
+    border: 15px solid navy;
+	
+	
+}
+
+.moviefooter {
+	margin-top: 180px;
+	
+}
+
+.checkoutcart {
+	margin-top:20px;
+	margin-left:20px;
+    background-color: lightgrey;
+    width: 1130px;
+    padding: 0px;
+    border: 15px solid navy;
+	font-size:20px;
+	font-color:black;
+}
+
+
+.selectionMGE {
+	
+	margin-right:900px;
+	font-size:60px;
+	text-shadow: 5px 5px 5px black;
+	
+}
+
+
+.orderbanner {
+	margin-top:-1300px;
+	margin-left: 30px;
+	
+	
+}
+.slideshow1 {
+	
+	margin-left: 900px;
+	margin-top: -740px;
+	
+	
+}
+
+.slideshow2 {
+	
+	margin-left: 10px;
+	margin-top: 450px;
+	
+	
+}
+
+.categoriesslideshow{
+	
+	margin-left: -100px;
+	margin-top: -355px;
+    padding: 0px;
+}
+
+
+.conwords {
+	color: #f4f1f4;
+	font-size:80px;
+	text-shadow: 5px 5px 5px #FF0000;
+	
+	/*This code allows you to do animation with colors
+	
+	-webkit-animation: myfirst 5s; Chrome, SAFARI, Opera 
+    animation: myfirst 5s;
+}
+
+Chrome, Safari, Opera 
+@-webkit-keyframes myfirst {
+    from {background: red;}
+    to {background: yellow;}
+}
+
+ Standard syntax 
+@keyframes myfirst {
+    from {background: red;}
+    to {background: yellow;}*/
+}
+
+.picture1 {
+	
+	margin-top:50px;
+	
+}
+
+.picture2 {
+	
+	margin-top:-200px;
+}
+
+.sc1 
+{
+font-weight: bold;
+font-size:15px;
+margin-left: 900px;
+margin-top: -270px;
+
+ background-color: lightgrey;
+    width: 250px;
+    padding: 0px;
+    border: 15px solid navy;
+    text-shadow: 2px 2px 2px black;
+   
+}
+
+
+p {  align: center;}
+
+table.center 
+{
+    margin-left:auto; 
+    margin-right:auto;
+    position:top;
+    margin:0 auto;
+    top:50%;
+    position:absolute;
+    left:50%; 
+    
+}
+
+
+
+body   
+{
+    background-image:  url("silver.png");
+     background-position: center; 
+    background-attachment: fixed;
+    background-size: auto;
+    font-size: .80em;
+    font-family: "Helvetica Neue", "Lucida Grande", "Segoe UI", Arial, Helvetica, Verdana, sans-serif;
+    margin: 1px;
+    padding: 1px;
+    text-align:center;
+    position:absolute;
+    
+}
+
+
+.image
+{
+    position:relative;
+}
+
+.image .form1
+{
+    position:absolute;
+    top:10px;
+    left:200px;
+    width:380px;
+    color: #00FF00;
+    font-weight: bold;
+    margin: 2px;
+    align:center; 
+}
+
+form1
+{
+    background-color: #0000;
+}
+
+a:link, a:visited
+{
+    color: #faf6fa ;
+}
+
+a:hover
+{
+    color: #0611f7;
+    text-decoration: none;
+}
+
+a:active
+{
+    color: #FFFF00;
+}
+
+p
+{
+    margin-bottom: 10px;
+    line-height: 1.6em;
+    margin-left: 40px;
+}
+
+
+
+
+
+/* HEADINGS   
+----------------------------------------------------------*/
+
+h1, h2, h3, h4, h5, h6
+{
+    font-size: 1.5em;
+    font-variant: small-caps;
+    text-transform: none;
+    font-weight: 200;
+    margin-bottom: 0px;
+}
+
+h1
+{
+    font-size: 1.6em;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+}
+
+h2
+{
+    font-size: 1.5em;
+    font-weight: 600;
+}
+
+h3
+{
+    font-size: 1.2em;
+}
+
+h4
+{
+    font-size: 1.1em;
+}
+
+h5, h6
+{
+    font-size: 1em;
+}
+
+/* this rule styles <h1> and <h2> tags that are the 
+first child of the left and right table columns */
+.rightColumn > h1, .rightColumn > h2, .leftColumn > h1, .leftColumn > h2
+{
+    margin-top: 0px;
+}
+
+
+/* PRIMARY LAYOUT ELEMENTS   
+----------------------------------------------------------*/
+
+.page
+{
+    width: 960px;
+    background-color: #fff;
+    margin: 20px auto 0px auto;
+    border: 1px solid #496077;
+}
+
+.header
+{
+    position: relative;
+    margin: 0px;
+    padding: 0px;
+    background: #4b6c9e;
+    width: 100%;
+}
+
+.header h1
+{
+    font-weight: 700;
+    margin: 0px;
+    padding: 0px 0px 0px 20px;
+    color: #f9f9f9;
+    border: none;
+    line-height: 2em;
+    font-size: 2em;
+}
+
+.main
+{
+    padding: 0px 12px;
+    margin: 12px 8px 8px 8px;
+    min-height: 420px;
+}
+
+.leftCol
+{
+    padding: 6px 0px;
+    margin: 12px 8px 8px 8px;
+    width: 200px;
+    min-height: 200px;
+}
+
+.footer
+{
+    color: #4e5766;
+    padding: 8px 0px 0px 0px;
+    margin: 0px auto;
+    text-align: center;
+    line-height: normal;
+    align: center;
+    
+}
+
+
+/* TAB MENU   
+----------------------------------------------------------*/
+
+div.hideSkiplink
+{
+    background-color:#3a4f63;
+    width:100%;
+}
+
+div.menu
+{
+    padding: 0px 0px 4px 8px;
+}
+
+div.menu ul
+{
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+    width: auto;
+}
+
+div.menu ul li a, div.menu ul li a:visited
+{
+    background-color: #465c71;
+    border: 1px #4e667d solid;
+    color: #dde4ec;
+    display: block;
+    line-height: 1.35em;
+    padding: 4px 20px;
+    text-decoration: none;
+    white-space: nowrap;
+    
+}
+
+div.menu ul li a:hover
+{
+    background-color: #bfcbd6;
+    color: #465c71;
+    text-decoration: none;
+}
+
+div.menu ul li a:active
+{
+    background-color: #465c71;
+    color: #cfdbe6;
+    text-decoration: none;
+}
+
+
+#navigation
+{
+	float: left;
+	width: 600px;
+	background:#333;
+}
+
+#navigation ul
+{
+	margin: 0;
+	padding: 0;
+}
+
+#navigation ul li
+{
+	list-style-type: none;
+	display: inline;
+}
+
+#navigation li a
+{
+	display: block;
+	float: none;
+	padding: 5px 10px;
+	color:#fff;
+	text-decoration: none;
+	border-right: 1px solid#fff;
+}
+
+
+
+
+
+
+#nav
+{
+       margin:auto; 
+       float: inherit;
+       width: 1000px;
+       background:grey;
+        text-shadow: 4px 4px 4px black;
+       
+     
+}
+
+
+#nav a
+{
+    display:inline-block;
+    padding: 10px;
+    font-weight: bold;
+    font-size:18px;
+    
+}
+
+/* FORM ELEMENTS   
+----------------------------------------------------------*/
+
+fieldset
+{
+    margin: 1em 0px;
+    padding: 1em;
+    border: 1px solid #ccc;
+}
+
+fieldset p 
+{
+    margin: 2px 12px 10px 10px;
+}
+
+fieldset.login label, fieldset.register label, fieldset.changePassword label
+{
+    display: block;
+}
+
+fieldset label.inline 
+{
+    display: inline;
+}
+
+legend 
+{
+    font-size: 1.1em;
+    font-weight: 600;
+    padding: 2px 4px 8px 4px;
+}
+
+input.textEntry 
+{
+    width: 320px;
+    border: 1px solid #ccc;
+}
+
+input.passwordEntry 
+{
+    width: 320px;
+    border: 1px solid #ccc;
+}
+
+div.accountInfo
+{
+    width: 42%;
+}
+
+/* MISC  
+----------------------------------------------------------*/
+
+.clear
+{
+    clear: both;
+}
+
+.title
+{
+    background-image: url('/Images/Homes.jpg'); 
+    display: block;
+    float: left;
+    text-align: left;
+    width: auto;
+}
+
+
+
+.loginDisplay
+{
+    font-size: 1.1em;
+    display: block;
+    text-align: right;
+    padding: 10px;
+    color: White;
+}
+
+.loginDisplay a:link
+{
+    color: white;
+}
+
+.loginDisplay a:visited
+{
+    color: white;
+}
+
+.loginDisplay a:hover
+{
+    color: white;
+}
+
+.failureNotification
+{
+    font-size: 1.2em;
+    color: Red;
+}
+
+.bold
+{
+    font-weight: bold;
+}
+
+.submitButton
+{
+    text-align: right;
+    padding-right: 10px;
+}
+
+
+#footer
+{
+	background:#ccc;
+	text-align: right;
+	padding: 10px;
+	height:3%;
+        width: 1000px;
+        font-weight: bold;
+    margin-top:400px;
+     border-bottom-left-radius: 2em;
+    border-bottom-right-radius: 2em;
+    border-top-left-radius: 2em;
+    border-top-right-radius: 2em;
+}
+
+#categoriesfooter
+{
+	background:#ccc;
+	text-align: right;
+	padding: 10px;
+	height:3%;
+        width: 1000px;
+        font-weight: bold;
+    margin-top: 150px;
+    border-bottom-left-radius: 2em;
+    border-bottom-right-radius: 2em;
+    border-top-left-radius: 2em;
+    border-top-right-radius: 2em;
+    box-shadow: 10px 10px 5px #888888;
+}
+
+.hr1 {
+	width: 600px;
+	height:3px;
+	color: #003300;	
+}
+
+/* This is categories nav menu code 
+
+#navMenu {
+	margin:0;
+	padding:0;
+	margin-left:-600px;
+	margin-top:-302px;
+	font-weight: bold;
+    font-size:18px;
+	}
+	
+#navMenu ul {
+	
+	margin:0;
+	padding:0;
+	line-height:30px;
+	
+	}
+	
+#navMenu li {
+	
+	margin:0;
+	padding:0;
+	list-style:none;
+	float::left;
+	position:relative;
+	
+	}
+	
+#navMenu ul li a {
+	
+	
+	text-align:left;
+	text-decoration:none;
+	height:30px;
+	width:150px;
+	display:block;
+	color:white;
+	text-shadow: 5px 5px 5px black;
+	}
+	
+#navMenu ul ul {
+	
+	position:absolute;
+	visibility:hidden;
+	top:30px;
+	
+	}
+	
+#navMenu ul li:hover ul {
+	
+	visibility:visible;
+	
+	
+	}*/

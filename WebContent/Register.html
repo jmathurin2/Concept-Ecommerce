@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Register</title>
+<link href="web.css" rel="stylesheet" type="text/css" />
+<script>
+function RegistrationValidate()
+{
+
+   if( document.form1.FName.value == "" )
+   {
+     alert( "Please provide your First Name!" );
+     document.form1.FName.focus() ;
+     return false;
+   }
+
+
+  if( document.form1.LName.value == "" )
+   {
+     alert( "Please provide your Last Name!" );
+     document.form1.LName.focus() ;
+     return false;
+   }
+
+
+
+  if( document.form1.Username.value == "" )
+   {
+     alert( "Please provide your Username!" );
+     document.form1.Username.focus() ;
+     return false;
+   }
+
+
+
+
+if( document.form1.password.value == "" )
+   {
+     alert( "Please provide your Password!" );
+     document.form1.password.focus() ;
+     return false;
+   }
+
+  
+
+
+
+
+
+   var a = document.form1.password.value;
+  if ((a.length < 4) || (a.length > 8))
+  {
+         alert("Your Password must be 4 to 8 Character");
+         document.form.password.select();
+         return false;
+  }
+
+
+
+
+   
+
+      var emailID = document.form1.Email.value;
+      atpos = emailID.indexOf("@");
+      dotpos = emailID.lastIndexOf(".");
+      
+if( document.form1.Email.value == "" )
+{
+          alert( "Please provide your Email!" );
+          document.form1.Email.focus() ;
+          return false;
+}
+
+      
+      
+if (atpos < 1 || ( dotpos - atpos < 2 )) 
+{
+          alert("Please enter correct email ID")
+          document.form1.EMail.focus() ;
+          return false;
+}
+
+      return( true );
+
+
+   
+   
+ 
+}
+
+
+
+  </script>
+
+  
+
+
+ 
+
+
+<center> 
+    <!-- This is the  page banner. -->
+<img src="J3Hbanner.png" align="middle" align="top" width="1200" height="220" />
+
+
+
+<!-- This is the  page navigation2. -->
+<center>
+<div id="nav">
+<a href="Index.jsp">Home</a> | <a href="Users.jsp">Edit Profile</a> | <a href="Logout.jsp">Logout</a> | <a href="Admin_Login.jsp">Admin Login</a> 
+</div></center>
+
+</head>
+<body>
+
+
+
+<div class="updateproductpage" style="color:red;" align="center" >
+
+ <p style="color:blue;"><u>Enter User Registration Information Here</u></p>
+  <!-- <p style="color:blue;" ><br /> <i>Enter User Registration Information Here.-->
+  
+     <br>
+     
+     
+      <!-- <p align="right"><form action="Register.jsp" method="post" ></p>-->
+    <p align="right"><form name="form1" action="Register.jsp" method="post" onSubmit="return RegistrationValidate()"></p>
+    
+    First Name:<input type="text" name="FName" value="" /><br><br>
+    
+    Last Name:<input type="text" name="LName" value="" /><br><br>
+    
+    User Name:<input type="text" name="Username" value="" /><br><br>
+
+    Password : <input type="password" name="password" value="" /><br><br>
+    
+    Email : <input type="text" name="Email" value="" /><br><br>
+
+    <center><input type="Submit" value="Register" name="submit"></center>
+      Already REGISTERED!!<a href="Index.jsp" style="color:blue;">Login Here</a>  
+     
+    </form>
+    
+    </div>
+     
+    </div><br>
+        <!-- This is the end of the login form. -->
+
+
+
+
+
+        
+ <div id="footer"><center>
+    		Copyright © J3H Ecommerce 2014, All Rights Reserved.</center>
+	</div>
+</body>
+</html>
